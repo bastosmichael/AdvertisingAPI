@@ -26,21 +26,18 @@ Demo API for Advertisers
 ### PUT update advertiser
 ### DELETE advertiser
 ### GET advertiser
-### GET endpoint to validate if the advertiser has enough credit to perform a
-transaction
+### GET endpoint to validate if the advertiser has enough credit to perform a transaction
 ### Properly handle errors and don't expose a stack trace through the API
-## Make sure the advertiser API endpoints are accessible via a swagger UI embedded in
-the application at http://localhost:8080/swagger-ui.html
+## Make sure the advertiser API endpoints are accessible via a swagger UI embedded in the application at http://localhost:8080/swagger-ui.html
 ### Do not expose the actuator endpoints via Swagger
-## Make sure you have at least 90% Test coverage via gradle test for all controllers and
-domain models
+## Make sure you have at least 90% Test coverage via gradle test for all controllers and domain models
 ## Make sure the end build artifact is an executable jar
 ## Make sure the actuator endpoints are working
 ### Add some sort of relevant information to /info
 ## Add a README.md with some description on how to develop, test, run
 ## Must be a git repository with several commits
 
-Share via GitHub or BitBucket, or .zip file via email, your choice
+#### Share via GitHub or BitBucket, or .zip file via email, your choice
 
 # Extra Credit options:
 ## POST endpoint to deduct credit from the advertiser’s account
@@ -50,6 +47,5 @@ Share via GitHub or BitBucket, or .zip file via email, your choice
 ## Build the resulting jar into a Dockerfile
 ## 100% Test Coverage
 ## Run the management / actuator endpoints on 8090 instead of 8080
-## Granular git commits and commit history (no points off for code issues / mistakes
-throughout the git history, only judged on the HEAD git repo state)
+## Granular git commits and commit history (no points off for code issues / mistakes throughout the git history, only judged on the HEAD git repo state)
 ## Any additional functionality you want to tack on :)
