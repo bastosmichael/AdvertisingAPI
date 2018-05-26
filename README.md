@@ -22,11 +22,11 @@ Fields
 - Advertiser Credit Limit
 Manage in H2 DB
 ### Restful API for an Advertiser (base path = /api/advertiser)
-POST new advertiser
-PUT update advertiser
-DELETE advertiser
-GET advertiser
-GET endpoint to validate if the advertiser has enough credit to perform a transaction
+- POST new advertiser
+- PUT update advertiser
+- DELETE advertiser
+- GET advertiser
+- GET endpoint to validate if the advertiser has enough credit to perform a transaction
 Properly handle errors and don't expose a stack trace through the API
 ### Make sure the advertiser API endpoints are accessible via a swagger UI embedded in the application at http://localhost:8080/swagger-ui.html
 Do not expose the actuator endpoints via Swagger
