@@ -54,4 +54,9 @@ Make sure the flyway actuator endpoint is working
 ```$ ./gradlew test```
 
 ## Commands to build and run
-```$ ./gradlew build && java -jar build/libs/Advertisers.jar``` 
+```$ ./gradlew build && java -jar build/libs/Advertisers.jar
+
+$ java -jar build/libs/AdvertiserAPI-*.jar
+```
+
+Visit http://localhost:8080/api/advertiser
