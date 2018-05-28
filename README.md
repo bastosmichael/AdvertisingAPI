@@ -49,3 +49,9 @@ Make sure the flyway actuator endpoint is working
 ### Run the management / actuator endpoints on 8090 instead of 8080
 ### Granular git commits and commit history (no points off for code issues / mistakes throughout the git history, only judged on the HEAD git repo state)
 ### Any additional functionality you want to tack on :)
+
+## Commands to build and run
+```$ ./gradlew test```
+
+## Commands to build and run
+```$ ./gradlew build && java -jar build/libs/Advertisers.jar``` 
