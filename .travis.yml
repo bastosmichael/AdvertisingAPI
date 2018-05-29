@@ -1,0 +1,18 @@
+language: java
+
+jdk:
+  - oraclejdk9
+
+os:
+  - linux
+
+branches:
+  only:
+    - master
+
+cache:
+  directories:
+  - $HOME/.gradle
+
+script:
+  - ./gradlew test
