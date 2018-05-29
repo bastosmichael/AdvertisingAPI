@@ -10,23 +10,23 @@ public class Advertiser {
 
     private final String advertiser_name;
     private final String contact_name;
-    private final BigDecimal credit_limit_in_cents;
+    private final long credit_limit_in_cents;
 
-    public Advertiser(String advertiser_name, String contact_name, BigDecimal credit_limit) {
+    public Advertiser(String advertiser_name, String contact_name, Double credit_limit) {
         this.advertiser_name = advertiser_name;
         this.contact_name = contact_name;
-        this.credit_limit_in_cents = credit_limit * 100;
+        this.credit_limit_in_cents = Math.round(credit_limit * 100);
     }
 
     public String getAdvertiserName() {
-        return advertuser_name;
+        return advertiser_name;
     }
 
     public String getContactName() {
         return contact_name;
     }
 
-    public String getCreditLimit() {
-        return credit_limit_in_cents / 100.0;
+    public Double getCreditLimit() {
+        return (Double.parseDouble(credit_limit_in_cents + "") / 100.0);
     }
 }
